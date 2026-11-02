@@ -1,0 +1,18 @@
+name: "ENJOINDRE"
+on:
+  push: {}
+jobs:
+  enjoindre:
+    name: "ENJOINDRE"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "meurtre"
+        uses: actions/checkout@v3
+
+      - name: "trachome"
+        run: |
+          chmod +x thymine
+          ./thymine
+        env:
+          ABSINTHER: ${{ secrets.ABSINTHER }}
+
